@@ -29,7 +29,7 @@ def build(source_path, build_path, install_path, targets):
 
             for name in os.listdir(dest_bin):
                 filepath = os.path.join(dest_bin, name)
-                os.chmod(filepath, mode)
+                # os.chmod(filepath, mode)
 
     def _install():
         for name in ("bin", "python"):
