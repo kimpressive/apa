@@ -1,6 +1,6 @@
 name = "hello_world"
 
-version = "1.0.3"
+version = "1.0.4"
 
 authors = [
     "ajohns"
